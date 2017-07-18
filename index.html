@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="well">
+        <h1>Movie Tickets</h1>
+        <form id="movie-selection">
+          <div class="form-group">
+            <label for="movie">Movie Selection</label>
+            <select class="form-control" id="movie">
+              <option value="1">Guardians of the galaxy II</option>
+              <option value="2">Baby driver</option>
+              <option value="3">Let the right one in</option>
+              <option value="4">Life of Pi</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="showtime">Showtime</label>
+            <select class="form-control" id="showtime">
+              <option value="1">10:00AM</option>
+              <option value="2">12:30PM</option>
+              <option value="3">3:30PM</option>
+              <option value="4">5:30PM</option>
+              <option value="4">8:30PM</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="age">Age</label>
+            <input id="age" class="form-control" type="number" max="100">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
